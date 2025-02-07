@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    background-color:white;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+/* Container for the Google logo and search bar */
+.google-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+/* Google logo styling */
+.google-logo {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 530px;
+    position: relative;
+}
+
+.search-box input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+}
+
+/* Icons */
+.search-icon {
+    color: gray;
+    margin-right: 10px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: #e2e4e7;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:active {
+    background-color: #e8e8e8;
+}
+/* Language Links */
+.languages {
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+}
+
+.languages a {
+    color: blue;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
