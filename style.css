@@ -33,6 +33,7 @@ body {
     padding: 10px 15px;
     width: 530px;
     position: relative;
+    cursor: pointer;
 }
 
 .search-box input {
@@ -89,4 +90,14 @@ body {
 
 .languages a:hover {
     text-decoration: underline;
+}
+.search-box:active{
+    border-color: #f4f7fc;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28), 0 0 8px rgba(66, 133, 244, 0.6);
+}
+
+.search-box:hover {
+    border-color: #4285f4;
+    animation: infinite;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28), 0 0 8px rgba(66, 133, 244, 0.6);
 }
